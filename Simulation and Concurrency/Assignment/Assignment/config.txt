@@ -1,0 +1,6 @@
+// Elasticity value 
+0.5
+// Is Server? 1 = true
+1
+// Is Client? 1 = true (careful!)
+0

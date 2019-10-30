@@ -1,0 +1,4 @@
+#pragma once
+
+// a struct to define a single vertex
+struct Vertex{ FLOAT X, Y, Z; D3DXCOLOR Color; };

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><Suppressions>
+   <Suppression class="com.parasoft.xtest.results.api.suppressions.CodingStandardSuppression" context="Assignment/Assignment/Header Files/Mesh.h" ctxStrg="ResCtx">
+      <TestResultSuppressionData>
+         <Reason>I don't need a copy assignment operator, I wouldn't use it.</Reason>
+         <User>508896</User>
+         <Date>1452965174249</Date>
+         <Message>A class 'Mesh' must declare a copy assignment operator</Message>
+         <Severity>1</Severity>
+         <RuleId>MRM-37</RuleId>
+         <TestId/>
+      </TestResultSuppressionData>
+   </Suppression>
+</Suppressions>

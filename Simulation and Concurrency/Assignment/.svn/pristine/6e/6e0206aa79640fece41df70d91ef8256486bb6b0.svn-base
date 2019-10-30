@@ -1,0 +1,31 @@
+#pragma once
+#include <vector>
+#include <d3d11.h>
+#include <d3dx11.h>
+#include <d3dx10.h>
+#include <DirectXMath.h>
+#include "VBO.h"
+#include "Vertex.h"
+#include "Mesh.h"
+
+enum TypeOfObjects {
+
+	Cube,
+	Plane
+
+};
+
+class Objects {
+
+	// Costanti (pubbliche)
+
+	// Data
+protected:
+
+	Mesh* _mesh;
+
+	// Draws the mesh
+private:
+	void Draw(ID3D11DeviceContext* context)		{ if (_mesh) _mesh->Draw(context); }
+
+};

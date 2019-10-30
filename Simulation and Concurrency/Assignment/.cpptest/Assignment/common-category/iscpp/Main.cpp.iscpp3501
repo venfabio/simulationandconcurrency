@@ -1,0 +1,6 @@
+fileName=G:\Morte\Assignment\Assignment\Main.cpp
+isCpp=
+compilerOpts=-I"C:\Program Files (x86)\Parasoft\C++test for Visual Studio\9.5\engine\runtime\include" /ZI /W3 /Od /EHsc /RTC1 /MDd /fp:precise /Gd /GS /sdl /Oy- /I"C:\Program Files (x86)\CSLibFolder\inc\GL" /Gm /DWIN32 /D_DEBUG /D_WINDOWS /D_UNICODE /DUNICODE /Zc:wchar_t /Zc:forScope /WX- /nologo -DPARASOFT_CPPTEST -I.
+compilerId=vc_12_0
+workingDir=G:\Morte\Assignment\Assignment\
+advancedOptionsHash=0

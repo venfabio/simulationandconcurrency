@@ -1,0 +1,32 @@
+#Fri Jan 15 16:01:05 GMT+00:00 2016
+Assignment/Assignment//com.parasoft.xtest.checkers.api.cpp.options.advanced.options=
+Assignment/Assignment//com.parasoft.xtest.checkers.api.cpp.options.cdt.configuration=CPPTEST_USE_ACTIVE_CONFIG
+Assignment/Assignment//com.parasoft.xtest.checkers.api.cpp.options.compiler.command.c.win32.x86=cl.exe
+Assignment/Assignment//com.parasoft.xtest.checkers.api.cpp.options.compiler.command.cpp.win32.x86=cl.exe
+Assignment/Assignment//com.parasoft.xtest.checkers.api.cpp.options.compiler.family.win32.x86=vc_12_0
+Assignment/Assignment//com.parasoft.xtest.checkers.api.cpp.options.compiler.options.win32.x86=${cpptest\:original_options} -DPARASOFT_CPPTEST -I.
+Assignment/Assignment//com.parasoft.xtest.checkers.api.cpp.options.connected.6x.projects=
+Assignment/Assignment//com.parasoft.xtest.checkers.api.cpp.options.dependency.files.paths=${project_loc}/Makefile
+Assignment/Assignment//com.parasoft.xtest.checkers.api.cpp.options.dsp.env.var.mode=ENV_PATCH_PREPEND_MODE
+Assignment/Assignment//com.parasoft.xtest.checkers.api.cpp.options.edg.multibyte.chars.is.source.handling=AUTO
+Assignment/Assignment//com.parasoft.xtest.checkers.api.cpp.options.evc.env.var.mode=ENV_PATCH_PREPEND_MODE
+Assignment/Assignment//com.parasoft.xtest.checkers.api.cpp.options.extractor.id=vs71_extractor_id
+Assignment/Assignment//com.parasoft.xtest.checkers.api.cpp.options.linker.command.win32.x86=link.exe
+Assignment/Assignment//com.parasoft.xtest.checkers.api.cpp.options.linker.options.win32.x86=${cpptest\:original_options} ${cpptest\:project_lib_files}
+Assignment/Assignment//com.parasoft.xtest.checkers.api.cpp.options.make.command.line=make -i -B CXX\=${CPPTEST_SCAN} CC\=${CPPTEST_SCAN} LD\=${CPPTEST_SCAN}
+Assignment/Assignment//com.parasoft.xtest.checkers.api.cpp.options.make.scan.hash.code.validation=true
+Assignment/Assignment//com.parasoft.xtest.checkers.api.cpp.options.make.working.dir=${project_loc}
+Assignment/Assignment//com.parasoft.xtest.checkers.api.cpp.options.make_always_build=false
+Assignment/Assignment//com.parasoft.xtest.checkers.api.cpp.options.ode_auto_scan_mode=on_changes
+Assignment/Assignment//com.parasoft.xtest.checkers.api.cpp.options.ode_delete_bdf_postaction=false
+Assignment/Assignment//com.parasoft.xtest.checkers.api.cpp.options.ode_incremental_build=false
+Assignment/Assignment//com.parasoft.xtest.checkers.api.cpp.options.ode_options_dir=${project_loc}/cpptestscan.bdf
+Assignment/Assignment//com.parasoft.xtest.checkers.api.cpp.options.preference.store.version=1.1
+Assignment/Assignment//com.parasoft.xtest.checkers.api.cpp.options.run_orig_cmd_for_parallel_proj_bdf=true
+Assignment/Assignment//com.parasoft.xtest.checkers.api.cpp.options.runtime.location=${cpptest\:engine_loc}/runtime
+Assignment/Assignment//com.parasoft.xtest.checkers.api.cpp.options.synchronize_with_project_settings=true
+Assignment/Assignment//com.parasoft.xtest.checkers.api.cpp.options.test.case.location.patterns=*
+Assignment/Assignment//com.parasoft.xtest.checkers.api.cpp.options.test.ware.location=${workspace_loc}/.cpptest/${project_name}
+Assignment/Assignment//com.parasoft.xtest.checkers.api.cpp.options.vc71.configuration=CPPTEST_USE_ACTIVE_CONFIG
+Assignment/Assignment//com.parasoft.xtest.checkers.api.cpp.options.working.dir=${project_loc}
+project.path.a49e0443-f1a7-457e-88ba-c52cbbc799a7=Assignment/Assignment

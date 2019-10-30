@@ -1,0 +1,57 @@
+#pragma once
+
+// include Windows and Direct3D headers
+#include <windows.h>
+#include <windowsx.h>
+#include <d3d11.h>
+#include <d3dx11.h>
+#include <d3dx10.h>
+#include <DirectXMath.h>
+
+// include the Direct3D Library file
+#pragma comment (lib, "d3d11.lib")
+#pragma comment (lib, "d3dx11.lib")
+#pragma comment (lib, "d3dx10.lib")
+
+// Other useful libraries 
+#include <stdlib.h>
+#include <time.h>
+#include <vector>
+
+class Window {
+
+	//variabili private 
+private:
+
+	HWND _hWnd;
+
+	IDXGISwapChain *swapchain;             // the pointer to the swap chain interface
+	ID3D11Device *dev;                     // the pointer to our Direct3D device interface
+	ID3D11DeviceContext *devcon;           // the pointer to our Direct3D device context
+	ID3D11RenderTargetView *backbuffer;    // the pointer to our back buffer
+	
+	   
+
+	// altre funzioni
+public:
+	// costruttore 
+	//Window();
+
+	// distruttore
+	//virtual ~Window();
+
+	// loop della window
+	int Start(HINSTANCE hInstance, int nCmdShow);
+
+	// Windows Message loop
+	static LRESULT CALLBACK WindowProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam);
+
+	// the WindowProc function prototype
+	//LRESULT CALLBACK WindowProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam);
+
+	// funzioni di DirectX
+	void InitD3D(HWND hWnd);    // sets up and initializes Direct3D
+	void RenderFrame(void);     // renders a single frame
+	void CleanD3D(void);        // closes Direct3D and releases memory
+
+};

@@ -1,0 +1,26 @@
+﻿Build started 17/05/2016 11:37:28.
+     1>Project "G:\Disperazione\Assignment\Assignment\Assignment.vcxproj" on node 2 (Build target(s)).
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"G:\Disperazione\Assignment\Debug\Assignment.exe" /INCREMENTAL /NOLOGO Ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"G:\Disperazione\Assignment\Debug\Assignment.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:\Disperazione\Assignment\Debug\Assignment.lib" /MACHINE:X86 Debug\Airjet.obj
+         Debug\Ball.obj
+         Debug\Client.obj
+         Debug\ContactManifold.obj
+         Debug\GameObject.obj
+         Debug\Message.obj
+         Debug\Path.obj
+         Debug\Main.obj
+         Debug\Mesh.obj
+         Debug\Basket.obj
+         Debug\Renderer.obj
+         Debug\Server.obj
+         Debug\Texture.obj
+         Debug\Triangle.obj
+         Debug\VBO.obj
+         Debug\Window.obj
+         "C:\Program Files (x86)\CSLibFolder\lib\AntTweakBar.lib"
+         Assignment.vcxproj -> G:\Disperazione\Assignment\Debug\Assignment.exe
+     1>Done Building Project "G:\Disperazione\Assignment\Assignment\Assignment.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.76

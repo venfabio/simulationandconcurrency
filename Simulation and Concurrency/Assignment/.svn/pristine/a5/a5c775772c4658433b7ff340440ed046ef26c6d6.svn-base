@@ -1,0 +1,34 @@
+#pragma once
+
+#include <d3d11.h>
+#include <d3dx11.h>
+#include <d3dx10.h>
+#include <vector>
+
+#include "Vertex.h"
+#include "VBO.h"
+
+class Mesh {
+
+public:
+
+	Mesh() { _locked = false; }
+	~Mesh() {}
+
+	bool AddVertex(Vertex v);
+	bool DeleteVertex(int i);
+	bool Clear();
+	int NumVertices()		const	{ return (int)_vertices.size(); }
+	VBO* CreateVBO(ID3D11Device* device, ID3D11DeviceContext* context);
+
+private:
+
+	bool _locked;
+	std::vector<Vertex>	_vertices;
+	VBO* _vbo;
+
+public:
+	void Draw(ID3D11DeviceContext* context)		{ if (_vbo) _vbo->Draw(context); }
+
+
+};
